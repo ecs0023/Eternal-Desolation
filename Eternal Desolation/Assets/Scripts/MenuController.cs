@@ -15,14 +15,14 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void StartGame()
+public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
-    public void EndGame()
+public void EndGame()
     {
         Debug.Log("EndGame");
     }
