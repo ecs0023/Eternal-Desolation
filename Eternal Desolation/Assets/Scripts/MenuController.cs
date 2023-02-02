@@ -20,7 +20,7 @@ public class MenuController : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("GameStart");
+        SceneManager.LoadScene(1);
     }
     public void EndGame()
     {
