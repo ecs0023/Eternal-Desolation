@@ -9,7 +9,7 @@ public class MenuController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -17,14 +17,30 @@ public class MenuController : MonoBehaviour
     {
 
     }
-
-public void StartGame()
+    //These commands control the buttons of the UI
+    public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
-public void EndGame()
+    public void EndGame()
     {
         Debug.Log("EndGame");
+    }
+    public void LoadScene2()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void LoadScene3()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void LoadScene4()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void LoadScene5()
+    {
+        SceneManager.LoadScene(5);
     }
 }
 
