@@ -441,8 +441,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Welcome to space! You Crashed your ship so you're gonna have to figure
-    out how to fix it if you want to get back home, Find all of the Tools and then
-    we can get to work!
+    out how to fix it if you want to get back home, Find all of the Tools and parts,
+    then we can get to work!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

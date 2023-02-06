@@ -24,7 +24,7 @@ public class MenuController : MonoBehaviour
     }
     public void EndGame()
     {
-        Debug.Log("EndGame");
+        Debug.Log("End Game");
     }
     public void LoadScene2()
     {
@@ -37,10 +37,6 @@ public class MenuController : MonoBehaviour
     public void LoadScene4()
     {
         SceneManager.LoadScene(4);
-    }
-    public void LoadScene5()
-    {
-        SceneManager.LoadScene(5);
     }
 }
 
